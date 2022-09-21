@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* made the whole page a box size of border-box, with padding of 0 and margin of 0 and set the fonts */
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+/* changes the color of any a elements to white text and gets rid of any underlineing on the links, padding increases the space between links */
+
+body {
+    background-color:salmon
+}
+/*set the background color of the body to the color salmon*/
+
+header{
+    padding: 50px;
+    background-color: gray;
+}
+/* gave the header padding of 50px changed the background color to gray */
+
+header ul{
+    text-align: right;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+header ul li{
+    display:inline-block;
+}
+
+section h1, p{
+    text-align:center;
+}
+/* centers the heading text */
+
+section img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+/* centers image underneath the first heading */
+
+form{
+    background-color: royalblue;
+    padding: 30px;
+    text-align: center;
+}
+form h2{
+    padding: 30px;
+}
+ input[type=text] {
+    width: 25%;
+    padding: 8px 12px;
+    margin: 8px 0;
+ }
+
+ footer{
+    height: 10px;
+    padding: 20px;
+    background-color: gray;
+    clear:both;
+
+ }
